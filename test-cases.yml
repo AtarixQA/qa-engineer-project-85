@@ -498,15 +498,15 @@
     2. Интерфейс остается отзывчивым
 
 - summary: |
-    Проверка корректности работы функционала в браузере Safari
+    Проверка корректности работы функционала в браузерах
   requirement: |
     Сайт должен корректно работать в последних версиях браузеров (Chrome, Firefox, Safari, Edge)
   prerequisites: |
-    Устройство на macOS или iOS с последней версией Safari
+    Устройство на macOS или iOS с последней версией Safari, Chrome, Firefox, Edge
   test-data: |
     Тестовый аккаунт Codebattle
   steps:
-    - Открыть главную страницу в Safari
+    - Открыть главную страницу в Safari, Chrome, Firefox, Edge
     - Пройти авторизацию через GitHub/Google
     - Зайти в игровую комнату и нажать «Run»
   expected-result: |
@@ -517,7 +517,7 @@
   requirement: |
     Корректная работа в актуальных версиях
   prerequisites: |
-    Браузер Internet Explorer 11 или очень старая версия Chrome (например, v50)
+    Браузер Internet Explorer 11 или очень старая версия Chrome (например, v70)
   test-data: |
     https://codebattle.hexlet.io/
   steps:
